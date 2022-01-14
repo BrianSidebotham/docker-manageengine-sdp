@@ -1,0 +1,63 @@
+#!/usr/bin/expect
+
+set timeout 600
+spawn /ManageEngine_ServiceDesk_Plus_64bit.bin -i console
+
+expect "PRESS <ENTER> TO CONTINUE: "
+send -- "\r"
+
+expect "PRESS <ENTER> TO CONTINUE: "
+send -- "\r"
+
+expect "PRESS <ENTER> TO CONTINUE: "
+send -- "\r"
+
+expect "PRESS <ENTER> TO CONTINUE: "
+send -- "\r"
+
+expect "PRESS <ENTER> TO CONTINUE: "
+send -- "\r"
+
+expect "PRESS <ENTER> TO CONTINUE: "
+send -- "\r"
+
+expect "PRESS <ENTER> TO CONTINUE: "
+send -- "\r"
+
+expect "PRESS <ENTER> TO CONTINUE: "
+send -- "\r"
+
+expect "PRESS <ENTER> TO CONTINUE: "
+send -- "\r"
+
+expect "PRESS <ENTER> TO CONTINUE: "
+send -- "\r"
+
+# ---
+
+expect "DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT? (Y/N): "
+send -- "Y\r"
+
+expect "PRESS <ENTER> TO ACCEPT THE DEFAULT: "
+send -- "\r"
+
+expect "Do you want to register for technical support?(Y/N) (Default: Y): "
+send -- "N\r"
+
+expect "      : "
+send -- "\r"
+
+expect "Enter WebServer Port (Default: 8080): "
+send -- "\r"
+
+expect "PRESS <ENTER> TO CONTINUE: "
+send -- "\r"
+
+expect "PRESS <ENTER> TO CONTINUE: "
+send -- "\r"
+
+expect "PRESS <ENTER> TO INSTALL: "
+send -- "\r"
+
+expect "PRESS <ENTER> TO ACCEPT THE FOLLOWING (OK): "
+send -- "\r"
